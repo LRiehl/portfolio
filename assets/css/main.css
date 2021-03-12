@@ -301,6 +301,35 @@ input, select, textarea {
 		text-align: right;
 	}
 
+
+/*Variables*/
+	$bg-body: #f9f9f9;
+
+	$red: #ee4d4d;
+	$blue: #2b2e48;
+	$primary-color: $red;
+	$secondary-color: $blue;
+	$timeline-color: $primary-color;
+
+/*Mixins and Placeholders*/
+	%clearfix {
+		&:after, &:before {
+			content: '';
+			display: block;
+			width: 100%;
+			clear: both;
+		}
+	@mixin prefix($prop, $val) {
+		@each $prefix in '-webkit-', '-moz-', '-ms-', '' {
+			#{$prefix}#{$prop}: $val;
+		}
+	}
+	*, *:before, *:after {
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
 /* Form */
 
 	form {
