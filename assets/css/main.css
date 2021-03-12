@@ -1731,7 +1731,7 @@ input, select, textarea {
 	}
 
 /* The actual content */
-	.content {
+	.content2 {
 	  padding: 20px 30px;
 	  background-color: white;
 	  position: relative;
@@ -1753,7 +1753,7 @@ input, select, textarea {
 	  }
 
 /* Make sure that all arrows are pointing leftwards */
-	  .container::before {
+	  .container2::before {
 	    left: 60px;
 	    border: medium solid white;
 	    border-width: 10px 10px 10px 0;
