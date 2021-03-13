@@ -1667,7 +1667,7 @@ input, select, textarea {
 
 /* Container around content */
 	.container2 {
-	  padding: 10px 60px;
+	  padding: 10px 40px;
 	  position: relative;
 	  background-color: inherit;
 	  width: 50%;
@@ -1727,7 +1727,7 @@ input, select, textarea {
 
 /* Fix the circle for containers on the right side */
 	.right::after {
-	  left: -16px;
+	  left: -10px;
 	}
 
 /* The actual content */
