@@ -1679,7 +1679,7 @@ input, select, textarea {
 	  position: absolute;
 	  width: 15px;
 	  height: 15px;
-	  right: -6px;
+	  right: -5px;
 	  background-color: black;
 	  border: 4px solid #ffffff;
 	  top: 15px;
@@ -1727,7 +1727,7 @@ input, select, textarea {
 
 /* Fix the circle for containers on the right side */
 	.right::after {
-	  left: -9px;
+	  left: -8px;
 	}
 
 /* The actual content */
